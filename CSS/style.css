@@ -290,19 +290,17 @@
   background-color: #d3d5c5;
   min-height: 100vh;
   position: relative;
-  overflow: hidden;
 }
 .wrapper .Bottom-content .Bottom-text {
-  position: absolute;
   width: 650px;
+  margin-left: 150px;
   padding: 20px;
-  top: 150px;
-  left: 160px;
 }
 .wrapper .Bottom-content .Bottom-text .text-title {
   margin-bottom: 30px;
 }
 .wrapper .Bottom-content .Bottom-text .text-title h2 {
+  margin-top: 150px;
   font-weight: 100;
   color: #fff;
   font-size: 50px;
