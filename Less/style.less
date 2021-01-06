@@ -1,0 +1,370 @@
+@Banner-color: #d3d5c5;
+@Text: #5e7157;
+@Footer-color: #d3d5c5;
+
+.ResponsiveImage(@max-width, @width) {
+  max-width: @max-width;
+  width: @width;
+}
+
+.Grid(@size, @gap, @align-items) {
+  display: grid;
+  grid-template-columns: @size;
+  grid-gap: @gap;
+  align-items: @align-items;
+}
+
+.wrapper {
+  .Banner {
+    position: relative;
+    .Banner-title {
+      position: absolute;
+      bottom: 40px;
+      right: 150px;
+      h1 {
+        color: #fff;
+        font-weight: 300;
+        font-size: 40px;
+        text-transform: uppercase;
+        letter-spacing: 0.5px;
+      }
+    }
+    img {
+      .ResponsiveImage(100%, 100%);
+    }
+    .box {
+      position: absolute;
+      background: @Banner-color;
+      min-height: 750px;
+      max-width: 550px;
+      width: 100%;
+      top: 0;
+      left: 40px;
+      padding: 20px 50px;
+      .box-logo {
+        img {
+          .ResponsiveImage(100%, 50%);
+          position: absolute;
+          top: 50px;
+        }
+      }
+      .box-text {
+        position: absolute;
+
+        bottom: 200px;
+        h5 {
+          color: #fff;
+          font-size: 40px;
+          font-weight: 100;
+          letter-spacing: 0.5px;
+          text-transform: uppercase;
+        }
+        h1 {
+          color: #fff;
+          font-size: 40px;
+          font-weight: 900;
+          text-transform: uppercase;
+          letter-spacing: 0.5px;
+        }
+      }
+      .box-paragraph {
+        position: absolute;
+        bottom: 75px;
+        padding-right: 50px;
+        p {
+          color: @Text;
+          font-size: 17px;
+          font-weight: 300;
+        }
+      }
+    }
+  }
+  .main-content {
+    max-width: 1200px;
+    .content-wrapper {
+      margin: 0 10px;
+      .content {
+        margin-top: 100px;
+        width: 600px;
+        .content-heading {
+          margin: 30px 0;
+          h1 {
+            font-size: 40px;
+            color: @Text;
+            text-transform: uppercase;
+            font-weight: 100;
+          }
+        }
+      }
+      .content-description {
+        #p1 {
+          font-size: 17px;
+          color: @Text;
+          font-weight: 100;
+          letter-spacing: 0.5px;
+          line-height: 28px;
+        }
+        #p2 {
+          font-size: 17px;
+          color: @Text;
+          font-weight: 100;
+          letter-spacing: 0.5px;
+          line-height: 28px;
+        }
+      }
+    }
+    .our-jobs {
+      .Grid(repeat(4, 25%), 0, center);
+      margin-top: 60px;
+      .job1 {
+        margin: 0 10px;
+        position: relative;
+        .job-image {
+          img {
+            .ResponsiveImage(100%, 100%);
+          }
+        }
+        .job-title {
+          position: absolute;
+          top: 280px;
+          right: 90px;
+          h2 {
+            font-size: 19px;
+            font-weight: bold;
+            color: #fff;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+          }
+        }
+        .job-description {
+          margin: 28px 0;
+          h5 {
+            font-size: 19px;
+            font-weight: bold;
+            color: @Text;
+            letter-spacing: 1px;
+          }
+          p {
+            color: @Text;
+            line-height: 25px;
+            font-size: 17px;
+            font-weight: 100;
+          }
+        }
+      }
+      .job2 {
+        margin: 0 10px;
+        position: relative;
+        .job-image {
+          img {
+            .ResponsiveImage(100%, 100%);
+          }
+        }
+        .job-title {
+          position: absolute;
+          top: 280px;
+          right: 90px;
+          h2 {
+            font-size: 19px;
+            font-weight: bold;
+            color: #fff;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+          }
+        }
+        .job-description {
+          margin: 28px 0;
+          h5 {
+            font-size: 19px;
+            font-weight: bold;
+            color: @Text;
+            letter-spacing: 1px;
+          }
+          p {
+            color: @Text;
+            line-height: 25px;
+            font-size: 17px;
+            font-weight: 100;
+          }
+        }
+      }
+      .job3 {
+        margin: 0 10px;
+        position: relative;
+        .job-image {
+          img {
+            .ResponsiveImage(100%, 100%);
+          }
+        }
+        .job-title {
+          position: absolute;
+          top: 280px;
+          right: 90px;
+          h2 {
+            font-size: 19px;
+            font-weight: bold;
+            color: #fff;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+          }
+        }
+        .job-description {
+          margin: 28px 0;
+          h5 {
+            font-size: 19px;
+            font-weight: bold;
+            color: @Text;
+            letter-spacing: 1px;
+          }
+          p {
+            color: @Text;
+            line-height: 25px;
+            font-size: 17px;
+            font-weight: 100;
+          }
+        }
+      }
+      .job4 {
+        margin: 0 10px;
+        position: relative;
+        .job-image {
+          img {
+            .ResponsiveImage(100%, 100%);
+          }
+        }
+        .job-title {
+          position: absolute;
+          top: 280px;
+          right: 90px;
+          h2 {
+            font-size: 19px;
+            font-weight: bold;
+            color: #fff;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+          }
+        }
+        .job-description {
+          margin: 28px 0;
+          h5 {
+            font-size: 19px;
+            font-weight: bold;
+            color: @Text;
+            letter-spacing: 1px;
+          }
+          p {
+            color: @Text;
+            line-height: 25px;
+            font-size: 17px;
+            font-weight: 100;
+          }
+        }
+      }
+    }
+  }
+  .Bottom-section {
+    position: relative;
+    margin-top: 100px;
+    .Bottom-image {
+      img {
+        .ResponsiveImage(100%, 100%);
+      }
+    }
+    .Bottom-text {
+      position: absolute;
+      top: 100px;
+      right: 10%;
+      background: @Banner-color;
+      max-width: 500px;
+      min-height: 480px;
+      padding: 10px;
+      padding: 0 60px;
+      .text-title {
+        margin-top: 100px;
+        margin-bottom: 60px;
+        h1 {
+          font-size: 40px;
+          color: #fff;
+          text-transform: uppercase;
+          letter-spacing: 1px;
+        }
+      }
+      .text-description {
+        p {
+          color: @Text;
+          font-size: 16px;
+          letter-spacing: 0.2px;
+          line-height: 27px;
+          font-weight: 100;
+        }
+      }
+    }
+    .image-pattern {
+      position: absolute;
+      bottom: -100px;
+      left: -260px;
+      z-index: 999;
+      img {
+        .ResponsiveImage(100%, 90%);
+      }
+    }
+  }
+  .Bottom-content {
+    background-color: @Footer-color;
+    min-height: 100vh;
+    position: relative;
+    overflow: hidden;
+    .Bottom-text {
+      position: absolute;
+      width: 650px;
+      padding: 20px;
+      top: 150px;
+      left: 160px;
+      .text-title {
+        margin-bottom: 30px;
+        h2 {
+          font-weight: 100;
+          color: #fff;
+          font-size: 50px;
+          letter-spacing: 1px;
+          span {
+            font-weight: 700;
+          }
+        }
+      }
+      .text-description {
+        #text1,
+        #text2,
+        #text3,
+        #text4 {
+          color: @Text;
+          font-size: 17px;
+          font-weight: 200;
+          line-height: 24px;
+        }
+      }
+    }
+    .Bottom-logo {
+      position: absolute;
+      right: 130px;
+      bottom: 80px;
+      img {
+        .ResponsiveImage(100%, 100%);
+      }
+    }
+  }
+  .footer {
+    margin: 50px 0;
+    position: relative;
+    max-width: 100%;
+    width: 100%;
+    .footer-image {
+      text-align: center;
+      width: 300px;
+      margin: 0 auto;
+      img {
+        .ResponsiveImage(100%, 100%);
+      }
+    }
+  }
+}
