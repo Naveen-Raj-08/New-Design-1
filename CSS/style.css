@@ -58,8 +58,8 @@
 }
 .wrapper .Banner .Banner-title {
   position: absolute;
-  bottom: 100px;
-  right: 280px;
+  bottom: 150px;
+  right: 200px;
 }
 .wrapper .Banner .Banner-title h1 {
   color: #fff;
@@ -72,7 +72,7 @@
 .wrapper .Banner .Banner-navigation {
   position: absolute;
   right: 40px;
-  bottom: 100px;
+  bottom: 152px;
 }
 .wrapper .Banner .Banner-navigation img {
   max-width: 100%;
@@ -444,7 +444,7 @@
 }
 .wrapper .Bottom-content .Bottom-text {
   width: 1000px;
-  margin-left: 150px;
+  margin-left: 175px;
   padding: 20px;
 }
 .wrapper .Bottom-content .Bottom-text .text-title h2 {
@@ -517,6 +517,9 @@
   .wrapper .Banner .box .box-text h5 {
     font-size: 41px;
   }
+  .wrapper .main-content {
+    max-width: 1350px;
+  }
   .wrapper .main-content .content-wrapper .content .content-heading h2 {
     font-size: 41px;
   }
@@ -537,8 +540,10 @@
   }
   .wrapper .Bottom-content .Bottom-text {
     width: 800px;
+    margin-left: 130px;
   }
   .wrapper .Bottom-content .Bottom-text .text-title h2 {
+    margin-top: 100px;
     font-size: 51px;
   }
   .wrapper .Bottom-content {
@@ -571,6 +576,9 @@
   }
   .wrapper .Banner .box .box-text h5 {
     font-size: 34px;
+  }
+  .wrapper .main-content {
+    max-width: 1190px;
   }
   .wrapper .main-content .content-wrapper .content .content-heading h2 {
     font-size: 35px;
@@ -610,16 +618,19 @@
 }
 @media screen and (max-width: 1199px) {
   .wrapper .Banner .Banner-navigation {
-    right: 10px;
+    width: 50px;
+    right: 20px;
+    bottom: 98px;
   }
   .wrapper .Banner .Banner-title {
-    right: 180px;
+    right: 100px;
+    bottom: 100px;
   }
   .wrapper .Banner .Banner-title h1 {
     font-size: 30px;
   }
   .wrapper .Banner .Banner-navigation img {
-    width: 50%;
+    width: 90%;
   }
   .wrapper .Banner .box {
     max-width: 400px;
@@ -647,6 +658,9 @@
     font-size: 14px;
     line-height: 20px;
   }
+  .wrapper .main-content {
+    max-width: 900px;
+  }
   .wrapper .main-content .content-wrapper .content {
     margin-top: 60px;
     width: 100%;
@@ -661,18 +675,19 @@
     font-size: 16px;
   }
   .wrapper .main-content .our-jobs .job1 .job-title {
-    top: 240px;
-    right: 80px;
+    top: 200px;
+    right: 70px;
   }
   .wrapper .main-content .our-jobs .job1 .job-title h2 {
     margin: 0;
     font-size: 15px;
   }
   .wrapper .main-content .our-jobs .job1 .job-Navigation {
-    top: 235px;
+    top: 192px;
+    right: 5px;
   }
   .wrapper .main-content .our-jobs .job1 .job-Navigation img {
-    width: 80%;
+    width: 65%;
   }
   .wrapper .main-content .our-jobs .job1 .job-description {
     margin: 20px 0;
@@ -682,18 +697,19 @@
     line-height: 23px;
   }
   .wrapper .main-content .our-jobs .job2 .job-title {
-    top: 240px;
-    right: 80px;
+    top: 200px;
+    right: 70px;
   }
   .wrapper .main-content .our-jobs .job2 .job-title h2 {
     margin: 0;
     font-size: 15px;
   }
   .wrapper .main-content .our-jobs .job2 .job-Navigation {
-    top: 235px;
+    top: 192px;
+    right: 5px;
   }
   .wrapper .main-content .our-jobs .job2 .job-Navigation img {
-    width: 80%;
+    width: 65%;
   }
   .wrapper .main-content .our-jobs .job2 .job-description {
     margin: 20px 0;
@@ -703,18 +719,19 @@
     line-height: 23px;
   }
   .wrapper .main-content .our-jobs .job3 .job-title {
-    top: 240px;
-    right: 80px;
+    top: 200px;
+    right: 70px;
   }
   .wrapper .main-content .our-jobs .job3 .job-title h2 {
     margin: 0;
     font-size: 15px;
   }
   .wrapper .main-content .our-jobs .job3 .job-Navigation {
-    top: 235px;
+    top: 192px;
+    right: 5px;
   }
   .wrapper .main-content .our-jobs .job3 .job-Navigation img {
-    width: 80%;
+    width: 65%;
   }
   .wrapper .main-content .our-jobs .job3 .job-description {
     margin: 20px 0;
@@ -724,18 +741,19 @@
     line-height: 23px;
   }
   .wrapper .main-content .our-jobs .job4 .job-title {
-    top: 240px;
-    right: 80px;
+    top: 200px;
+    right: 70px;
   }
   .wrapper .main-content .our-jobs .job4 .job-title h2 {
     margin: 0;
     font-size: 15px;
   }
   .wrapper .main-content .our-jobs .job4 .job-Navigation {
-    top: 235px;
+    top: 192px;
+    right: 5px;
   }
   .wrapper .main-content .our-jobs .job4 .job-Navigation img {
-    width: 80%;
+    width: 65%;
   }
   .wrapper .main-content .our-jobs .job4 .job-description {
     margin: 20px 0;
@@ -776,8 +794,7 @@
     min-height: 60vh;
   }
   .wrapper .Bottom-content .Bottom-text {
-    margin-left: 50px;
-    width: 450px;
+    margin-left: 90px;
   }
   .wrapper .Bottom-content .Bottom-text .text-title h2 {
     margin-top: 80px;
@@ -801,13 +818,15 @@
 
 @media screen and (max-width: 999px) {
   .wrapper .Banner .Banner-navigation {
-    right: 0;
+    bottom: 78px;
+    right: 10px;
   }
   .wrapper .Banner .Banner-navigation img {
-    width: 40%;
+    width: 80%;
   }
   .wrapper .Banner .Banner-title {
-    right: 130px;
+    bottom: 80px;
+    right: 80px;
   }
   .wrapper .Banner .Banner-title h1 {
     font-size: 25px;
@@ -835,6 +854,9 @@
   .wrapper .Banner .box .box-paragraph p {
     font-size: 12px;
     line-height: 18px;
+  }
+  .wrapper .main-content {
+    max-width: 720px;
   }
   .wrapper .main-content .content-wrapper .content {
     margin-top: 40px;
@@ -1167,6 +1189,7 @@
   .wrapper .Bottom-content .Bottom-text .text-title h2 {
     font-size: 20px;
     margin-top: 40px;
+    margin-bottom: 30px;
   }
   .wrapper .Bottom-content .Bottom-text .text-description #text1,
   .wrapper .Bottom-content .Bottom-text .text-description #text2,
@@ -1175,26 +1198,29 @@
     font-size: 14px;
   }
   .wrapper .Bottom-content .Bottom-text .text-description #text4 {
-    margin-bottom: 120px;
+    margin-bottom: 130px;
   }
   .wrapper .Bottom-content .Bottom-logo {
-    bottom: 20px;
+    bottom: 10px;
     left: 43%;
+  }
+  .wrapper .Bottom-content .Bottom-logo img {
+    width: 75%;
   }
 }
 
 @media screen and (max-width: 480px) {
   .wrapper .Banner .Banner-navigation {
     right: 30px;
-    bottom: 15px;
-    width: 30px;
+    bottom: 30px;
+    width: 38px;
   }
   .wrapper .Banner .Banner-navigation img {
     width: 100%;
   }
   .wrapper .Banner .Banner-title {
     right: 90px;
-    bottom: 10px;
+    bottom: 35px;
   }
   .wrapper .Banner .Banner-title h1 {
     font-size: 18px;
