@@ -565,6 +565,9 @@
   .wrapper .Banner .Banner-title h1 {
     font-size: 35px;
   }
+  .wrapper .Banner .Banner-navigation {
+    bottom: 145px;
+  }
   .wrapper .Banner .Banner-navigation img {
     width: 65%;
   }
