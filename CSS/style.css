@@ -1,3 +1,19 @@
+@font-face {
+  font-family: Erbaum;
+  src: url("../Fonts/Erbaum-Light/font.woff");
+}
+@font-face {
+  font-family: Univia Pro;
+  src: url("../Fonts/UniviaPro-Light/font.woff");
+}
+@font-face {
+  font-family: Univia Pro-Bold;
+  src: url("../Fonts/UniviaPro-Bold/font.woff");
+}
+
+.wrapper {
+  max-width: 1920px;
+}
 .wrapper .Heading-box {
   display: grid;
   grid-template-columns: 25% 75%;
@@ -18,6 +34,7 @@
 .wrapper .Heading-box .company-description .box-text h5 {
   font-size: 18px;
   color: #fff;
+  font-family: Erbaum;
   font-weight: 100;
   letter-spacing: 0.5px;
   text-transform: uppercase;
@@ -25,6 +42,7 @@
 .wrapper .Heading-box .company-description .box-text h1 {
   font-size: 18px;
   color: #fff;
+  font-family: Erbaum;
   font-weight: 900;
   text-transform: uppercase;
   letter-spacing: 0.5px;
@@ -32,6 +50,7 @@
 .wrapper .Heading-box .company-description .box-paragraph p {
   font-size: 12px;
   color: #5e7157;
+  font-family: Univia Pro;
   font-weight: 300;
 }
 .wrapper .Banner {
@@ -39,24 +58,25 @@
 }
 .wrapper .Banner .Banner-title {
   position: absolute;
-  bottom: 40px;
+  bottom: 100px;
   right: 280px;
 }
 .wrapper .Banner .Banner-title h1 {
   color: #fff;
+  font-family: Erbaum;
   font-weight: 300;
-  font-size: 40px;
+  font-size: 61px;
   text-transform: uppercase;
-  letter-spacing: 0.5px;
+  margin: 0;
 }
 .wrapper .Banner .Banner-navigation {
   position: absolute;
   right: 40px;
-  bottom: 45px;
+  bottom: 100px;
 }
 .wrapper .Banner .Banner-navigation img {
   max-width: 100%;
-  width: 60%;
+  width: 80%;
 }
 .wrapper .Banner img {
   max-width: 100%;
@@ -65,11 +85,11 @@
 .wrapper .Banner .box {
   position: absolute;
   background: #d3d5c5;
-  min-height: 750px;
-  max-width: 550px;
+  min-height: 932px;
+  max-width: 600px;
   width: 100%;
   top: 0;
-  left: 40px;
+  left: 50px;
   padding: 20px 50px;
 }
 .wrapper .Banner .box .box-logo img {
@@ -80,21 +100,21 @@
 }
 .wrapper .Banner .box .box-text {
   position: absolute;
-  bottom: 200px;
+  bottom: 235px;
 }
 .wrapper .Banner .box .box-text h5 {
   color: #fff;
-  font-size: 40px;
+  font-family: Erbaum;
+  font-size: 47px;
   font-weight: 100;
-  letter-spacing: 0.5px;
   text-transform: uppercase;
 }
 .wrapper .Banner .box .box-text h1 {
   color: #fff;
-  font-size: 40px;
+  font-family: Erbaum;
+  font-size: 47px;
   font-weight: 900;
   text-transform: uppercase;
-  letter-spacing: 0.5px;
 }
 .wrapper .Banner .box .box-paragraph {
   position: absolute;
@@ -105,22 +125,25 @@
   color: #5e7157;
   font-size: 17px;
   font-weight: 300;
+  font-family: Univia Pro;
 }
 .wrapper .main-content {
-  max-width: 1200px;
+  max-width: 1460px;
+  margin: 0 auto;
 }
 .wrapper .main-content .content-wrapper {
   margin: 0 10px;
 }
 .wrapper .main-content .content-wrapper .content {
   margin-top: 100px;
-  width: 600px;
+  width: 750px;
 }
 .wrapper .main-content .content-wrapper .content .content-heading {
   margin: 30px 0;
 }
 .wrapper .main-content .content-wrapper .content .content-heading h2 {
-  font-size: 40px;
+  font-size: 47px;
+  font-family: Erbaum;
   color: #5e7157;
   text-transform: uppercase;
   font-weight: 100;
@@ -128,6 +151,7 @@
 .wrapper .main-content .content-wrapper .content-description #p1 {
   font-size: 17px;
   color: #5e7157;
+  font-family: Univia Pro;
   font-weight: 100;
   letter-spacing: 0.5px;
   line-height: 28px;
@@ -135,6 +159,7 @@
 .wrapper .main-content .content-wrapper .content-description #p2 {
   font-size: 17px;
   color: #5e7157;
+  font-family: Univia Pro;
   font-weight: 100;
   letter-spacing: 0.5px;
   line-height: 28px;
@@ -156,20 +181,20 @@
 }
 .wrapper .main-content .our-jobs .job1 .job-title {
   position: absolute;
-  top: 280px;
-  right: 90px;
+  bottom: 230px;
+  right: 100px;
 }
 .wrapper .main-content .our-jobs .job1 .job-title h2 {
   font-size: 19px;
   font-weight: bold;
   color: #fff;
+  font-family: Univia Pro;
   text-transform: uppercase;
-  letter-spacing: 1px;
 }
 .wrapper .main-content .our-jobs .job1 .job-Navigation {
   position: absolute;
-  max-width: 40px;
-  top: 270px;
+  max-width: 50px;
+  bottom: 230px;
   right: 20px;
 }
 .wrapper .main-content .our-jobs .job1 .job-Navigation img {
@@ -177,18 +202,20 @@
   width: 100%;
 }
 .wrapper .main-content .our-jobs .job1 .job-description {
-  margin: 28px 0;
+  margin: 40px 0;
 }
 .wrapper .main-content .our-jobs .job1 .job-description h5 {
   font-size: 19px;
   font-weight: bold;
   color: #5e7157;
+  font-family: Univia Pro;
   letter-spacing: 1px;
 }
 .wrapper .main-content .our-jobs .job1 .job-description p {
   color: #5e7157;
-  line-height: 25px;
-  font-size: 17px;
+  line-height: 28px;
+  font-size: 19px;
+  font-family: Univia Pro;
   font-weight: 100;
 }
 .wrapper .main-content .our-jobs .job2 {
@@ -201,20 +228,20 @@
 }
 .wrapper .main-content .our-jobs .job2 .job-title {
   position: absolute;
-  top: 280px;
-  right: 90px;
+  bottom: 230px;
+  right: 100px;
 }
 .wrapper .main-content .our-jobs .job2 .job-title h2 {
   font-size: 19px;
   font-weight: bold;
   color: #fff;
+  font-family: Univia Pro;
   text-transform: uppercase;
-  letter-spacing: 1px;
 }
 .wrapper .main-content .our-jobs .job2 .job-Navigation {
   position: absolute;
-  max-width: 40px;
-  top: 270px;
+  max-width: 50px;
+  bottom: 230px;
   right: 20px;
 }
 .wrapper .main-content .our-jobs .job2 .job-Navigation img {
@@ -222,18 +249,20 @@
   width: 100%;
 }
 .wrapper .main-content .our-jobs .job2 .job-description {
-  margin: 28px 0;
+  margin: 40px 0;
 }
 .wrapper .main-content .our-jobs .job2 .job-description h5 {
   font-size: 19px;
   font-weight: bold;
   color: #5e7157;
+  font-family: Univia Pro;
   letter-spacing: 1px;
 }
 .wrapper .main-content .our-jobs .job2 .job-description p {
   color: #5e7157;
-  line-height: 25px;
-  font-size: 17px;
+  line-height: 28px;
+  font-size: 19px;
+  font-family: Univia Pro;
   font-weight: 100;
 }
 .wrapper .main-content .our-jobs .job3 {
@@ -246,20 +275,20 @@
 }
 .wrapper .main-content .our-jobs .job3 .job-title {
   position: absolute;
-  top: 280px;
-  right: 90px;
+  bottom: 230px;
+  right: 100px;
 }
 .wrapper .main-content .our-jobs .job3 .job-title h2 {
   font-size: 19px;
   font-weight: bold;
   color: #fff;
+  font-family: Univia Pro;
   text-transform: uppercase;
-  letter-spacing: 1px;
 }
 .wrapper .main-content .our-jobs .job3 .job-Navigation {
   position: absolute;
-  max-width: 40px;
-  top: 270px;
+  max-width: 50px;
+  bottom: 230px;
   right: 20px;
 }
 .wrapper .main-content .our-jobs .job3 .job-Navigation img {
@@ -267,18 +296,20 @@
   width: 100%;
 }
 .wrapper .main-content .our-jobs .job3 .job-description {
-  margin: 28px 0;
+  margin: 40px 0;
 }
 .wrapper .main-content .our-jobs .job3 .job-description h5 {
   font-size: 19px;
   font-weight: bold;
   color: #5e7157;
+  font-family: Univia Pro;
   letter-spacing: 1px;
 }
 .wrapper .main-content .our-jobs .job3 .job-description p {
   color: #5e7157;
-  line-height: 25px;
-  font-size: 17px;
+  line-height: 28px;
+  font-size: 19px;
+  font-family: Univia Pro;
   font-weight: 100;
 }
 .wrapper .main-content .our-jobs .job4 {
@@ -291,20 +322,20 @@
 }
 .wrapper .main-content .our-jobs .job4 .job-title {
   position: absolute;
-  top: 280px;
-  right: 90px;
+  bottom: 230px;
+  right: 100px;
 }
 .wrapper .main-content .our-jobs .job4 .job-title h2 {
   font-size: 19px;
   font-weight: bold;
   color: #fff;
+  font-family: Univia Pro;
   text-transform: uppercase;
-  letter-spacing: 1px;
 }
 .wrapper .main-content .our-jobs .job4 .job-Navigation {
   position: absolute;
-  max-width: 40px;
-  top: 270px;
+  max-width: 50px;
+  bottom: 230px;
   right: 20px;
 }
 .wrapper .main-content .our-jobs .job4 .job-Navigation img {
@@ -312,20 +343,24 @@
   width: 100%;
 }
 .wrapper .main-content .our-jobs .job4 .job-description {
-  margin: 28px 0;
+  margin: 40px 0;
 }
 .wrapper .main-content .our-jobs .job4 .job-description h5 {
   font-size: 19px;
   font-weight: bold;
   color: #5e7157;
+  font-family: Univia Pro;
   letter-spacing: 1px;
 }
 .wrapper .main-content .our-jobs .job4 .job-description p {
   color: #5e7157;
-  line-height: 25px;
-  font-size: 17px;
+  line-height: 28px;
+  font-size: 19px;
+  font-family: Univia Pro;
   font-weight: 100;
 }
+
+/*  */
 .wrapper .Bottom {
   margin-top: 20px;
   background: #d3d5c5;
@@ -338,6 +373,7 @@
 }
 .wrapper .Bottom .Bottom-text .text-title h2 {
   color: #fff;
+  font-family: Erbaum;
   font-size: 20px;
   text-transform: uppercase;
   letter-spacing: 1px;
@@ -347,6 +383,7 @@
 }
 .wrapper .Bottom .Bottom-text .text-description p {
   color: #5e7157;
+  font-family: Univia Pro;
   font-size: 14px;
   letter-spacing: 0.3px;
   line-height: 23px;
@@ -362,40 +399,42 @@
 }
 .wrapper .Bottom-section .Bottom-text {
   position: absolute;
-  top: 100px;
-  right: 10%;
+  top: 130px;
+  right: 220px;
   background: #d3d5c5;
-  max-width: 500px;
-  min-height: 480px;
+  max-width: 560px;
+  min-height: 540px;
   padding: 10px;
   padding: 0 60px;
 }
 .wrapper .Bottom-section .Bottom-text .text-title {
-  margin-top: 100px;
-  margin-bottom: 60px;
+  margin-top: 160px;
+  margin-bottom: 90px;
 }
 .wrapper .Bottom-section .Bottom-text .text-title h2 {
-  font-size: 40px;
+  font-size: 47px;
   color: #fff;
+  font-family: Erbaum;
   text-transform: uppercase;
   letter-spacing: 1px;
 }
 .wrapper .Bottom-section .Bottom-text .text-description p {
   color: #5e7157;
-  font-size: 16px;
+  font-family: Univia Pro;
+  font-size: 17px;
   letter-spacing: 0.2px;
   line-height: 27px;
   font-weight: 100;
 }
 .wrapper .Bottom-section .image-pattern {
   position: absolute;
-  bottom: -100px;
+  bottom: -90px;
   left: -260px;
   z-index: 999;
 }
 .wrapper .Bottom-section .image-pattern img {
   max-width: 100%;
-  width: 90%;
+  width: 100%;
 }
 .wrapper .Bottom-content {
   background-color: #d3d5c5;
@@ -403,7 +442,7 @@
   position: relative;
 }
 .wrapper .Bottom-content .Bottom-text {
-  width: 650px;
+  width: 1000px;
   margin-left: 150px;
   padding: 20px;
 }
@@ -414,17 +453,21 @@
   margin-top: 150px;
   font-weight: 100;
   color: #fff;
-  font-size: 50px;
-  letter-spacing: 1px;
+  font-family: Erbaum;
+  font-size: 63px;
 }
 .wrapper .Bottom-content .Bottom-text .text-title h2 span {
   font-weight: 700;
+}
+.wrapper .Bottom-content .Bottom-text .text-description {
+  max-width: 850px;
 }
 .wrapper .Bottom-content .Bottom-text .text-description #text1,
 .wrapper .Bottom-content .Bottom-text .text-description #text2,
 .wrapper .Bottom-content .Bottom-text .text-description #text3,
 .wrapper .Bottom-content .Bottom-text .text-description #text4 {
   color: #5e7157;
+  font-family: Univia Pro;
   font-size: 17px;
   font-weight: 200;
   line-height: 24px;
