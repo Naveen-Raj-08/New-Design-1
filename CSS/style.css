@@ -43,7 +43,7 @@
   font-size: 18px;
   color: #fff;
   font-family: Erbaum;
-  font-weight: 900;
+  font-weight: 1000;
   text-transform: uppercase;
   letter-spacing: 0.5px;
 }
@@ -58,8 +58,8 @@
 }
 .wrapper .Banner .Banner-title {
   position: absolute;
-  bottom: 150px;
-  right: 200px;
+  bottom: 13%;
+  right: 13%;
 }
 .wrapper .Banner .Banner-title h1 {
   color: #fff;
@@ -71,12 +71,12 @@
 }
 .wrapper .Banner .Banner-navigation {
   position: absolute;
-  right: 40px;
-  bottom: 152px;
+  right: 3%;
+  bottom: 14%;
 }
 .wrapper .Banner .Banner-navigation img {
   max-width: 100%;
-  width: 80%;
+  width: 55px;
 }
 .wrapper .Banner img {
   max-width: 100%;
@@ -187,30 +187,26 @@
 }
 .wrapper .main-content .our-jobs .job1 .job-title h2 {
   font-size: 19px;
-  font-weight: bold;
   color: #fff;
-  font-family: Univia Pro;
+  font-family: Univia Pro-Bold;
   text-transform: uppercase;
 }
 .wrapper .main-content .our-jobs .job1 .job-Navigation {
   position: absolute;
-  max-width: 50px;
   bottom: 230px;
   right: 20px;
 }
 .wrapper .main-content .our-jobs .job1 .job-Navigation img {
   max-width: 100%;
-  width: 100%;
+  width: 55px;
 }
 .wrapper .main-content .our-jobs .job1 .job-description {
   margin: 40px 0;
 }
 .wrapper .main-content .our-jobs .job1 .job-description h5 {
-  font-size: 19px;
-  font-weight: bold;
   color: #5e7157;
-  font-family: Univia Pro;
-  letter-spacing: 1px;
+  font-size: 19px;
+  font-family: Univia Pro-Bold;
 }
 .wrapper .main-content .our-jobs .job1 .job-description p {
   color: #5e7157;
@@ -234,30 +230,26 @@
 }
 .wrapper .main-content .our-jobs .job2 .job-title h2 {
   font-size: 19px;
-  font-weight: bold;
   color: #fff;
-  font-family: Univia Pro;
+  font-family: Univia Pro-Bold;
   text-transform: uppercase;
 }
 .wrapper .main-content .our-jobs .job2 .job-Navigation {
   position: absolute;
-  max-width: 50px;
   bottom: 230px;
   right: 20px;
 }
 .wrapper .main-content .our-jobs .job2 .job-Navigation img {
   max-width: 100%;
-  width: 100%;
+  width: 55px;
 }
 .wrapper .main-content .our-jobs .job2 .job-description {
   margin: 40px 0;
 }
 .wrapper .main-content .our-jobs .job2 .job-description h5 {
-  font-size: 19px;
-  font-weight: bold;
   color: #5e7157;
-  font-family: Univia Pro;
-  letter-spacing: 1px;
+  font-size: 19px;
+  font-family: Univia Pro-Bold;
 }
 .wrapper .main-content .our-jobs .job2 .job-description p {
   color: #5e7157;
@@ -281,30 +273,26 @@
 }
 .wrapper .main-content .our-jobs .job3 .job-title h2 {
   font-size: 19px;
-  font-weight: bold;
   color: #fff;
-  font-family: Univia Pro;
+  font-family: Univia Pro-Bold;
   text-transform: uppercase;
 }
 .wrapper .main-content .our-jobs .job3 .job-Navigation {
   position: absolute;
-  max-width: 50px;
   bottom: 230px;
   right: 20px;
 }
 .wrapper .main-content .our-jobs .job3 .job-Navigation img {
   max-width: 100%;
-  width: 100%;
+  width: 55px;
 }
 .wrapper .main-content .our-jobs .job3 .job-description {
   margin: 40px 0;
 }
 .wrapper .main-content .our-jobs .job3 .job-description h5 {
-  font-size: 19px;
-  font-weight: bold;
   color: #5e7157;
-  font-family: Univia Pro;
-  letter-spacing: 1px;
+  font-size: 19px;
+  font-family: Univia Pro-Bold;
 }
 .wrapper .main-content .our-jobs .job3 .job-description p {
   color: #5e7157;
@@ -328,30 +316,26 @@
 }
 .wrapper .main-content .our-jobs .job4 .job-title h2 {
   font-size: 19px;
-  font-weight: bold;
   color: #fff;
-  font-family: Univia Pro;
+  font-family: Univia Pro-Bold;
   text-transform: uppercase;
 }
 .wrapper .main-content .our-jobs .job4 .job-Navigation {
   position: absolute;
-  max-width: 50px;
   bottom: 230px;
   right: 20px;
 }
 .wrapper .main-content .our-jobs .job4 .job-Navigation img {
   max-width: 100%;
-  width: 100%;
+  width: 55px;
 }
 .wrapper .main-content .our-jobs .job4 .job-description {
   margin: 40px 0;
 }
 .wrapper .main-content .our-jobs .job4 .job-description h5 {
-  font-size: 19px;
-  font-weight: bold;
   color: #5e7157;
-  font-family: Univia Pro;
-  letter-spacing: 1px;
+  font-size: 19px;
+  font-family: Univia Pro-Bold;
 }
 .wrapper .main-content .our-jobs .job4 .job-description p {
   color: #5e7157;
@@ -377,7 +361,13 @@
   font-family: Erbaum;
   font-size: 20px;
   text-transform: uppercase;
-  letter-spacing: 1px;
+}
+.wrapper .Bottom .Bottom-text .text-title h2 span {
+  color: #fff;
+  font-family: Erbaum;
+  font-weight: 1000;
+  font-size: 20px;
+  text-transform: uppercase;
 }
 .wrapper .Bottom .Bottom-text .text-description {
   margin-top: 28px;
@@ -404,7 +394,7 @@
   right: 220px;
   background: #d3d5c5;
   max-width: 560px;
-  min-height: 540px;
+  min-height: 530px;
   padding: 10px;
   padding: 0 60px;
 }
@@ -417,7 +407,13 @@
   color: #fff;
   font-family: Erbaum;
   text-transform: uppercase;
-  letter-spacing: 1px;
+}
+.wrapper .Bottom-section .Bottom-text .text-title h2 span {
+  font-size: 47px;
+  color: #fff;
+  font-family: Erbaum;
+  font-weight: 1000;
+  text-transform: uppercase;
 }
 .wrapper .Bottom-section .Bottom-text .text-description p {
   color: #5e7157;
@@ -502,14 +498,11 @@
     min-height: 750px;
     max-width: 530px;
   }
-  .wrapper .Banner .Banner-title {
-    right: 250px;
+  .wrapper .Banner .Banner-navigation img {
+    width: 50px;
   }
   .wrapper .Banner .Banner-title h1 {
     font-size: 47px;
-  }
-  .wrapper .Banner .Banner-navigation img {
-    width: 70%;
   }
   .wrapper .Banner .box .box-text h1 {
     font-size: 41px;
@@ -523,17 +516,33 @@
   .wrapper .main-content .content-wrapper .content .content-heading h2 {
     font-size: 41px;
   }
+  .wrapper .main-content .our-jobs .job1 .job-Navigation img {
+    width: 50px;
+  }
+  .wrapper .main-content .our-jobs .job2 .job-Navigation img {
+    width: 50px;
+  }
+  .wrapper .main-content .our-jobs .job3 .job-Navigation img {
+    width: 50px;
+  }
+  .wrapper .main-content .our-jobs .job4 .job-Navigation img {
+    width: 50px;
+  }
   .wrapper .Bottom-section .Bottom-text {
     top: 80px;
     right: 150px;
-    max-width: 500px;
+    max-width: 530px;
+    padding: 0 40px;
   }
   .wrapper .Bottom-section .Bottom-text .text-title {
     margin-top: 145px;
     margin-bottom: 75px;
   }
   .wrapper .Bottom-section .Bottom-text .text-title h2 {
-    font-size: 41;
+    font-size: 41px;
+  }
+  .wrapper .Bottom-section .Bottom-text .text-title h2 span {
+    font-size: 41px;
   }
   .wrapper .Bottom-section .image-pattern img {
     width: 90%;
@@ -560,13 +569,14 @@
     max-width: 500px;
   }
   .wrapper .Banner .Banner-title {
-    right: 250px;
+    right: 15%;
+    bottom: 16%;
   }
   .wrapper .Banner .Banner-title h1 {
     font-size: 35px;
   }
   .wrapper .Banner .Banner-navigation {
-    bottom: 145px;
+    bottom: 16%;
   }
   .wrapper .Banner .Banner-navigation img {
     width: 65%;
@@ -599,6 +609,9 @@
   .wrapper .Bottom-section .Bottom-text .text-title h2 {
     font-size: 35px;
   }
+  .wrapper .Bottom-section .Bottom-text .text-title h2 span {
+    font-size: 35px;
+  }
   .wrapper .Bottom-section .image-pattern {
     left: -230px;
     bottom: -85px;
@@ -620,20 +633,11 @@
   }
 }
 @media screen and (max-width: 1199px) {
-  .wrapper .Banner .Banner-navigation {
-    width: 50px;
-    right: 20px;
-    bottom: 98px;
-  }
-  .wrapper .Banner .Banner-title {
-    right: 100px;
-    bottom: 100px;
+  .wrapper .Banner .Banner-navigation img {
+    width: 40px;
   }
   .wrapper .Banner .Banner-title h1 {
     font-size: 30px;
-  }
-  .wrapper .Banner .Banner-navigation img {
-    width: 90%;
   }
   .wrapper .Banner .box {
     max-width: 400px;
@@ -686,11 +690,11 @@
     font-size: 15px;
   }
   .wrapper .main-content .our-jobs .job1 .job-Navigation {
-    top: 192px;
+    top: 188px;
     right: 5px;
   }
   .wrapper .main-content .our-jobs .job1 .job-Navigation img {
-    width: 65%;
+    width: 40px;
   }
   .wrapper .main-content .our-jobs .job1 .job-description {
     margin: 20px 0;
@@ -708,11 +712,11 @@
     font-size: 15px;
   }
   .wrapper .main-content .our-jobs .job2 .job-Navigation {
-    top: 192px;
+    top: 188px;
     right: 5px;
   }
   .wrapper .main-content .our-jobs .job2 .job-Navigation img {
-    width: 65%;
+    width: 40px;
   }
   .wrapper .main-content .our-jobs .job2 .job-description {
     margin: 20px 0;
@@ -730,11 +734,11 @@
     font-size: 15px;
   }
   .wrapper .main-content .our-jobs .job3 .job-Navigation {
-    top: 192px;
+    top: 188px;
     right: 5px;
   }
   .wrapper .main-content .our-jobs .job3 .job-Navigation img {
-    width: 65%;
+    width: 40px;
   }
   .wrapper .main-content .our-jobs .job3 .job-description {
     margin: 20px 0;
@@ -752,11 +756,11 @@
     font-size: 15px;
   }
   .wrapper .main-content .our-jobs .job4 .job-Navigation {
-    top: 192px;
+    top: 188px;
     right: 5px;
   }
   .wrapper .main-content .our-jobs .job4 .job-Navigation img {
-    width: 65%;
+    width: 40px;
   }
   .wrapper .main-content .our-jobs .job4 .job-description {
     margin: 20px 0;
@@ -787,6 +791,9 @@
     margin-bottom: 30px;
   }
   .wrapper .Bottom-section .Bottom-text .text-title h2 {
+    font-size: 30px;
+  }
+  .wrapper .Bottom-section .Bottom-text .text-title h2 span {
     font-size: 30px;
   }
   .wrapper .Bottom-section .Bottom-text .text-description p {
@@ -820,16 +827,15 @@
 }
 
 @media screen and (max-width: 999px) {
-  .wrapper .Banner .Banner-navigation {
-    bottom: 78px;
-    right: 10px;
-  }
   .wrapper .Banner .Banner-navigation img {
-    width: 80%;
+    width: 40px;
+  }
+  .wrapper .Banner .Banner-navigation {
+    bottom: 14%;
   }
   .wrapper .Banner .Banner-title {
-    bottom: 80px;
-    right: 80px;
+    right: 12%;
+    bottom: 14%;
   }
   .wrapper .Banner .Banner-title h1 {
     font-size: 25px;
@@ -888,10 +894,10 @@
   }
   .wrapper .main-content .our-jobs .job1 .job-Navigation {
     top: 163px;
-    right: 0;
+    right: 10px;
   }
   .wrapper .main-content .our-jobs .job1 .job-Navigation img {
-    width: 55%;
+    width: 30px;
   }
   .wrapper .main-content .our-jobs .job1 .job-description {
     margin: 10px 0;
@@ -914,10 +920,10 @@
   }
   .wrapper .main-content .our-jobs .job2 .job-Navigation {
     top: 163px;
-    right: 0;
+    right: 10px;
   }
   .wrapper .main-content .our-jobs .job2 .job-Navigation img {
-    width: 55%;
+    width: 30px;
   }
   .wrapper .main-content .our-jobs .job2 .job-description {
     margin: 10px 0;
@@ -940,10 +946,10 @@
   }
   .wrapper .main-content .our-jobs .job3 .job-Navigation {
     top: 163px;
-    right: 0;
+    right: 10px;
   }
   .wrapper .main-content .our-jobs .job3 .job-Navigation img {
-    width: 55%;
+    width: 30px;
   }
   .wrapper .main-content .our-jobs .job3 .job-description {
     margin: 10px 0;
@@ -966,10 +972,10 @@
   }
   .wrapper .main-content .our-jobs .job4 .job-Navigation {
     top: 163px;
-    right: 0;
+    right: 10px;
   }
   .wrapper .main-content .our-jobs .job4 .job-Navigation img {
-    width: 55%;
+    width: 30px;
   }
   .wrapper .main-content .our-jobs .job4 .job-description {
     margin: 10px 0;
@@ -999,6 +1005,9 @@
     margin-bottom: 25px;
   }
   .wrapper .Bottom-section .Bottom-text .text-title h2 {
+    font-size: 25px;
+  }
+  .wrapper .Bottom-section .Bottom-text .text-title h2 span {
     font-size: 25px;
   }
   .wrapper .Bottom-section .Bottom-text .text-description p {
@@ -1075,7 +1084,7 @@
     right: 25px;
   }
   .wrapper .main-content .our-jobs .job1 .job-Navigation img {
-    width: 100%;
+    width: 40px;
   }
   .wrapper .main-content .our-jobs .job1 .job-description {
     margin: 20px 0;
@@ -1101,7 +1110,7 @@
     right: 25px;
   }
   .wrapper .main-content .our-jobs .job2 .job-Navigation img {
-    width: 100%;
+    width: 40px;
   }
   .wrapper .main-content .our-jobs .job2 .job-description {
     margin: 20px 0;
@@ -1127,7 +1136,7 @@
     right: 25px;
   }
   .wrapper .main-content .our-jobs .job3 .job-Navigation img {
-    width: 100%;
+    width: 40px;
   }
   .wrapper .main-content .our-jobs .job3 .job-description {
     margin: 20px 0;
@@ -1153,7 +1162,7 @@
     right: 25px;
   }
   .wrapper .main-content .our-jobs .job4 .job-Navigation img {
-    width: 100%;
+    width: 40px;
   }
   .wrapper .main-content .our-jobs .job4 .job-description {
     margin: 20px 0;
