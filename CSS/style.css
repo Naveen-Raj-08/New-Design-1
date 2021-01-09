@@ -1051,6 +1051,9 @@
   .wrapper .Heading-box {
     display: grid;
   }
+  .wrapper .Banner .Banner-title {
+    bottom: 15.5%;
+  }
   .wrapper .Banner .Banner-title h1 {
     font-size: 20px;
   }
