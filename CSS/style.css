@@ -10,9 +10,14 @@
   font-family: Univia Pro-Bold;
   src: url("../Fonts/UniviaPro-Bold/font.woff");
 }
+@font-face {
+  font-family: Erbaum-Bold;
+  src: url("../Fonts/Dhurjati/Dhurjati-Regular.ttf");
+}
 
 .wrapper {
   max-width: 1920px;
+  margin: 0 auto;
 }
 .wrapper .Heading-box {
   display: grid;
@@ -59,7 +64,7 @@
 .wrapper .Banner .Banner-title {
   position: absolute;
   bottom: 13%;
-  right: 13%;
+  right: 8%;
 }
 .wrapper .Banner .Banner-title h1 {
   color: #fff;
@@ -71,12 +76,12 @@
 }
 .wrapper .Banner .Banner-navigation {
   position: absolute;
-  right: 3%;
+  right: 70px;
   bottom: 14%;
 }
 .wrapper .Banner .Banner-navigation img {
   max-width: 100%;
-  width: 55px;
+  width: 50px;
 }
 .wrapper .Banner img {
   max-width: 100%;
@@ -115,7 +120,6 @@
   font-size: 47px;
   font-weight: 1000;
   text-transform: uppercase;
-  position: relative;
 }
 .wrapper .Banner .box .box-paragraph {
   position: absolute;
@@ -193,12 +197,12 @@
 }
 .wrapper .main-content .our-jobs .job1 .job-Navigation {
   position: absolute;
-  bottom: 230px;
+  bottom: 235px;
   right: 20px;
 }
 .wrapper .main-content .our-jobs .job1 .job-Navigation img {
   max-width: 100%;
-  width: 55px;
+  width: 30px;
 }
 .wrapper .main-content .our-jobs .job1 .job-description {
   margin: 40px 0;
@@ -236,12 +240,12 @@
 }
 .wrapper .main-content .our-jobs .job2 .job-Navigation {
   position: absolute;
-  bottom: 230px;
+  bottom: 235px;
   right: 20px;
 }
 .wrapper .main-content .our-jobs .job2 .job-Navigation img {
   max-width: 100%;
-  width: 55px;
+  width: 30px;
 }
 .wrapper .main-content .our-jobs .job2 .job-description {
   margin: 40px 0;
@@ -279,12 +283,12 @@
 }
 .wrapper .main-content .our-jobs .job3 .job-Navigation {
   position: absolute;
-  bottom: 230px;
+  bottom: 235px;
   right: 20px;
 }
 .wrapper .main-content .our-jobs .job3 .job-Navigation img {
   max-width: 100%;
-  width: 55px;
+  width: 30px;
 }
 .wrapper .main-content .our-jobs .job3 .job-description {
   margin: 40px 0;
@@ -322,12 +326,12 @@
 }
 .wrapper .main-content .our-jobs .job4 .job-Navigation {
   position: absolute;
-  bottom: 230px;
+  bottom: 235px;
   right: 20px;
 }
 .wrapper .main-content .our-jobs .job4 .job-Navigation img {
   max-width: 100%;
-  width: 55px;
+  width: 30px;
 }
 .wrapper .main-content .our-jobs .job4 .job-description {
   margin: 40px 0;
@@ -498,8 +502,13 @@
     min-height: 750px;
     max-width: 530px;
   }
+
   .wrapper .Banner .Banner-navigation img {
-    width: 50px;
+    width: 45px;
+  }
+  .wrapper .Banner .Banner-title {
+    right: 10%;
+    bottom: 13.5%;
   }
   .wrapper .Banner .Banner-title h1 {
     font-size: 47px;
@@ -517,16 +526,16 @@
     font-size: 41px;
   }
   .wrapper .main-content .our-jobs .job1 .job-Navigation img {
-    width: 50px;
+    width: 28px;
   }
   .wrapper .main-content .our-jobs .job2 .job-Navigation img {
-    width: 50px;
+    width: 28px;
   }
   .wrapper .main-content .our-jobs .job3 .job-Navigation img {
-    width: 50px;
+    width: 28px;
   }
   .wrapper .main-content .our-jobs .job4 .job-Navigation img {
-    width: 50px;
+    width: 28px;
   }
   .wrapper .Bottom-section .Bottom-text {
     top: 80px;
@@ -569,8 +578,8 @@
     max-width: 500px;
   }
   .wrapper .Banner .Banner-title {
-    right: 15%;
     bottom: 16%;
+    right: 11%;
   }
   .wrapper .Banner .Banner-title h1 {
     font-size: 35px;
@@ -579,7 +588,7 @@
     bottom: 16%;
   }
   .wrapper .Banner .Banner-navigation img {
-    width: 65%;
+    width: 40px;
   }
   .wrapper .Banner .box .box-logo img {
     width: 30%;
@@ -633,11 +642,14 @@
   }
 }
 @media screen and (max-width: 1199px) {
-  .wrapper .Banner .Banner-navigation img {
-    width: 40px;
-  }
   .wrapper .Banner .Banner-title h1 {
     font-size: 30px;
+  }
+  .wrapper .Banner .Banner-navigation {
+    right: 53px;
+  }
+  .wrapper .Banner .Banner-navigation img {
+    width: 35px;
   }
   .wrapper .Banner .box {
     max-width: 400px;
@@ -690,11 +702,11 @@
     font-size: 15px;
   }
   .wrapper .main-content .our-jobs .job1 .job-Navigation {
-    top: 188px;
-    right: 5px;
+    top: 193px;
+    right: 10px;
   }
   .wrapper .main-content .our-jobs .job1 .job-Navigation img {
-    width: 40px;
+    width: 28px;
   }
   .wrapper .main-content .our-jobs .job1 .job-description {
     margin: 20px 0;
@@ -712,11 +724,11 @@
     font-size: 15px;
   }
   .wrapper .main-content .our-jobs .job2 .job-Navigation {
-    top: 188px;
-    right: 5px;
+    top: 193px;
+    right: 10px;
   }
   .wrapper .main-content .our-jobs .job2 .job-Navigation img {
-    width: 40px;
+    width: 28px;
   }
   .wrapper .main-content .our-jobs .job2 .job-description {
     margin: 20px 0;
@@ -734,11 +746,11 @@
     font-size: 15px;
   }
   .wrapper .main-content .our-jobs .job3 .job-Navigation {
-    top: 188px;
-    right: 5px;
+    top: 193px;
+    right: 10px;
   }
   .wrapper .main-content .our-jobs .job3 .job-Navigation img {
-    width: 40px;
+    width: 28px;
   }
   .wrapper .main-content .our-jobs .job3 .job-description {
     margin: 20px 0;
@@ -756,11 +768,11 @@
     font-size: 15px;
   }
   .wrapper .main-content .our-jobs .job4 .job-Navigation {
-    top: 188px;
-    right: 5px;
+    top: 193px;
+    right: 10px;
   }
   .wrapper .main-content .our-jobs .job4 .job-Navigation img {
-    width: 40px;
+    width: 28px;
   }
   .wrapper .main-content .our-jobs .job4 .job-description {
     margin: 20px 0;
@@ -828,10 +840,11 @@
 
 @media screen and (max-width: 999px) {
   .wrapper .Banner .Banner-navigation img {
-    width: 40px;
+    width: 30px;
   }
   .wrapper .Banner .Banner-navigation {
     bottom: 14%;
+    right: 43px;
   }
   .wrapper .Banner .Banner-title {
     right: 12%;
@@ -897,7 +910,7 @@
     right: 10px;
   }
   .wrapper .main-content .our-jobs .job1 .job-Navigation img {
-    width: 30px;
+    width: 20px;
   }
   .wrapper .main-content .our-jobs .job1 .job-description {
     margin: 10px 0;
@@ -923,7 +936,7 @@
     right: 10px;
   }
   .wrapper .main-content .our-jobs .job2 .job-Navigation img {
-    width: 30px;
+    width: 20px;
   }
   .wrapper .main-content .our-jobs .job2 .job-description {
     margin: 10px 0;
@@ -949,7 +962,7 @@
     right: 10px;
   }
   .wrapper .main-content .our-jobs .job3 .job-Navigation img {
-    width: 30px;
+    width: 20px;
   }
   .wrapper .main-content .our-jobs .job3 .job-description {
     margin: 10px 0;
@@ -975,7 +988,7 @@
     right: 10px;
   }
   .wrapper .main-content .our-jobs .job4 .job-Navigation img {
-    width: 30px;
+    width: 20px;
   }
   .wrapper .main-content .our-jobs .job4 .job-description {
     margin: 10px 0;
@@ -1024,7 +1037,7 @@
   .wrapper .Bottom-content .Bottom-text .text-title h2 {
     font-size: 25px;
     margin-top: 50px;
-    margin-bottom: 0;
+    margin-bottom: 25px;
   }
   .wrapper .Bottom-content .Bottom-text .text-description #text1,
   .wrapper .Bottom-content .Bottom-text .text-description #text2,
@@ -1256,13 +1269,13 @@
     grid-row-gap: 20px;
   }
   .wrapper .main-content .our-jobs .job1 .job-title {
-    top: 350px;
+    top: 390px;
   }
   .wrapper .main-content .our-jobs .job1 .job-title h2 {
     font-size: 18px;
   }
   .wrapper .main-content .our-jobs .job1 .job-Navigation {
-    top: 340px;
+    top: 380px;
   }
   .wrapper .main-content .our-jobs .job1 .job-description h5 {
     font-size: 18px;
@@ -1272,13 +1285,13 @@
     line-height: 22px;
   }
   .wrapper .main-content .our-jobs .job2 .job-title {
-    top: 350px;
+    top: 390px;
   }
   .wrapper .main-content .our-jobs .job2 .job-title h2 {
     font-size: 18px;
   }
   .wrapper .main-content .our-jobs .job2 .job-Navigation {
-    top: 340px;
+    top: 380px;
   }
   .wrapper .main-content .our-jobs .job2 .job-description h5 {
     font-size: 18px;
@@ -1288,13 +1301,13 @@
     line-height: 22px;
   }
   .wrapper .main-content .our-jobs .job3 .job-title {
-    top: 350px;
+    top: 390px;
   }
   .wrapper .main-content .our-jobs .job3 .job-title h2 {
     font-size: 18px;
   }
   .wrapper .main-content .our-jobs .job3 .job-Navigation {
-    top: 340px;
+    top: 380px;
   }
   .wrapper .main-content .our-jobs .job3 .job-description h5 {
     font-size: 18px;
@@ -1304,13 +1317,13 @@
     line-height: 22px;
   }
   .wrapper .main-content .our-jobs .job4 .job-title {
-    top: 350px;
+    top: 390px;
   }
   .wrapper .main-content .our-jobs .job4 .job-title h2 {
     font-size: 18px;
   }
   .wrapper .main-content .our-jobs .job4 .job-Navigation {
-    top: 340px;
+    top: 380px;
   }
   .wrapper .main-content .our-jobs .job4 .job-description h5 {
     font-size: 18px;
