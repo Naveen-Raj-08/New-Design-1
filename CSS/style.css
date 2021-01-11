@@ -10,10 +10,6 @@
   font-family: Univia Pro-Bold;
   src: url("../Fonts/UniviaPro-Bold/font.woff");
 }
-@font-face {
-  font-family: Erbaum-Bold;
-  src: url("../Fonts/Dhurjati/Dhurjati-Regular.ttf");
-}
 
 .wrapper {
   max-width: 1920px;
@@ -169,21 +165,49 @@
   letter-spacing: 0.5px;
   line-height: 28px;
 }
+.wrapper .main-content .Overlay {
+  width: 100%;
+  position: relative;
+}
+.wrapper .main-content .Overlay .Job1-overlay {
+  padding: 20px;
+  background-color: #d3d5c5;
+  position: absolute;
+  width: 100%;
+  z-index: 999;
+  display: none;
+}
+.wrapper .main-content .Overlay .Job1-overlay iframe {
+  width: 100%;
+}
 .wrapper .main-content .our-jobs {
   display: grid;
   grid-template-columns: repeat(4, 25%);
   grid-gap: 0;
   align-items: center;
   margin-top: 60px;
+  position: relative;
 }
+
 .wrapper .main-content .our-jobs .job1 {
   margin: 0 10px;
   position: relative;
 }
+.wrapper .main-content .our-jobs .job1 .job-image {
+  position: relative;
+}
+.wrapper .main-content .our-jobs .job1:hover .job-image img {
+  opacity: 0.9;
+}
 .wrapper .main-content .our-jobs .job1 .job-image img {
   max-width: 100%;
   width: 100%;
+  cursor: pointer;
 }
+.wrapper .main-content .our-jobs .job1 .job-image .Overlay {
+  width: 100%;
+}
+
 .wrapper .main-content .our-jobs .job1 .job-title {
   position: absolute;
   bottom: 230px;
@@ -219,13 +243,18 @@
   font-family: Univia Pro;
   font-weight: 100;
 }
+
 .wrapper .main-content .our-jobs .job2 {
   margin: 0 10px;
   position: relative;
 }
+.wrapper .main-content .our-jobs .job2:hover .job-image img {
+  opacity: 0.9;
+}
 .wrapper .main-content .our-jobs .job2 .job-image img {
   max-width: 100%;
   width: 100%;
+  cursor: pointer;
 }
 .wrapper .main-content .our-jobs .job2 .job-title {
   position: absolute;
@@ -266,9 +295,14 @@
   margin: 0 10px;
   position: relative;
 }
+.wrapper .main-content .our-jobs .job3:hover .job-image img {
+  opacity: 0.9;
+}
+
 .wrapper .main-content .our-jobs .job3 .job-image img {
   max-width: 100%;
   width: 100%;
+  cursor: pointer;
 }
 .wrapper .main-content .our-jobs .job3 .job-title {
   position: absolute;
@@ -309,9 +343,13 @@
   margin: 0 10px;
   position: relative;
 }
+.wrapper .main-content .our-jobs .job4:hover .job-image img {
+  opacity: 0.9;
+}
 .wrapper .main-content .our-jobs .job4 .job-image img {
   max-width: 100%;
   width: 100%;
+  cursor: pointer;
 }
 .wrapper .main-content .our-jobs .job4 .job-title {
   position: absolute;
@@ -349,7 +387,6 @@
   font-weight: 100;
 }
 
-/*  */
 .wrapper .Bottom {
   margin-top: 20px;
   background: #d3d5c5;
@@ -1100,7 +1137,7 @@
     right: 25px;
   }
   .wrapper .main-content .our-jobs .job1 .job-Navigation img {
-    width: 40px;
+    width: 30px;
   }
   .wrapper .main-content .our-jobs .job1 .job-description {
     margin: 20px 0;
@@ -1126,7 +1163,7 @@
     right: 25px;
   }
   .wrapper .main-content .our-jobs .job2 .job-Navigation img {
-    width: 40px;
+    width: 30px;
   }
   .wrapper .main-content .our-jobs .job2 .job-description {
     margin: 20px 0;
@@ -1152,7 +1189,7 @@
     right: 25px;
   }
   .wrapper .main-content .our-jobs .job3 .job-Navigation img {
-    width: 40px;
+    width: 30px;
   }
   .wrapper .main-content .our-jobs .job3 .job-description {
     margin: 20px 0;
@@ -1178,7 +1215,7 @@
     right: 25px;
   }
   .wrapper .main-content .our-jobs .job4 .job-Navigation img {
-    width: 40px;
+    width: 30px;
   }
   .wrapper .main-content .our-jobs .job4 .job-description {
     margin: 20px 0;
