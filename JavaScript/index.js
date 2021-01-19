@@ -5,11 +5,17 @@ function OpenOverlay(id) {
     OpenVideo.style.display = "block";
   }
 }
+$(document).ready(function () {
+  var image = ".wrapper .main-content .our-jobs .job1 .job-image img";
+  $(image).click(function (e) {
+    var $frame = jQuery(
+      ".wrapper .main-content .Overlay .Job1-overlay iframe",
+      jQuery(this)
+    );
+    let newAttr = $frame.attr("src", "&autoplay=1");
+    console.log(newAttr);
+    console.log("Excuted");
+  });
+});
 
-function CloseButton(id) {
-  let CloseVideo = document.getElementById(id);
-
-  if ((CloseVideo.style.display = "block")) {
-    CloseVideo.style.display = "none";
-  }
-}
+$(".js-modal-btn").modalVideo();
