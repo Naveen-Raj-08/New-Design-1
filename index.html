@@ -11,7 +11,14 @@
       crossorigin="anonymous"
     />
     <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <script src="https://player.vimeo.com/api/player.js"></script>
     <link rel="stylesheet" href="./CSS/style.css" />
+
+    <style type="text/css">
+      header.vp-outro-videosHeader {
+        display: none !important;
+      }
+    </style>
   </head>
   <body>
     <div class="wrapper">
@@ -93,10 +100,26 @@
             <div class="Overlay">
               <div class="Job1-overlay" id="overlay">
                 <div class="close-button">
-                  <button onclick="CloseButton('overlay')">Close</button>
+                  <button value="overlay-video">X</button>
                 </div>
                 <iframe
-                  src="https://player.vimeo.com/video/499153357"
+                  id="overlay-video"
+                  src="https://player.vimeo.com/video/499153357?&loop=1&title=0&byline=0&portrait=0"
+                  width="800"
+                  height="800"
+                  frameborder="0"
+                  allow="autoplay; fullscreen"
+                  allowfullscreen
+                  allowautoplay
+                ></iframe>
+              </div>
+              <div class="Job1-overlay" id="overlay2">
+                <div class="close-button">
+                  <button value="overlay2-video">X</button>
+                </div>
+                <iframe
+                  id="overlay2-video"
+                  src="https://player.vimeo.com/video/499155315?loop=1&title=0&byline=0&portrait=0"
                   width="800"
                   height="800"
                   frameborder="0"
@@ -104,25 +127,13 @@
                   allowfullscreen
                 ></iframe>
               </div>
-              <div class="Job1-overlay" id="overlay2">
-                <div class="close-button">
-                  <button onclick="CloseButton('overlay2')">Close</button>
-                  <iframe
-                    src="https://player.vimeo.com/video/499155315"
-                    width="800"
-                    height="800"
-                    frameborder="0"
-                    allow="autoplay; fullscreen"
-                    allowfullscreen
-                  ></iframe>
-                </div>
-              </div>
               <div class="Job1-overlay" id="overlay3">
                 <div class="close-button">
-                  <button onclick="CloseButton('overlay3')">Close</button>
+                  <button value="overlay3-video">X</button>
                 </div>
                 <iframe
-                  src="https://player.vimeo.com/video/499155389"
+                  id="overlay3-video"
+                  src="https://player.vimeo.com/video/499155389?loop=1&title=0&byline=0&portrait=0"
                   width="800"
                   height="800"
                   frameborder="0"
@@ -132,10 +143,11 @@
               </div>
               <div class="Job1-overlay" id="overlay4">
                 <div class="close-button">
-                  <button onclick="CloseButton('overlay4')">Close</button>
+                  <button value="overlay4-video">X</button>
                 </div>
                 <iframe
-                  src="https://player.vimeo.com/video/499155475"
+                  id="overlay4-video"
+                  src="https://player.vimeo.com/video/499155475?loop=1&title=0&byline=0&portrait=0"
                   width="800"
                   height="800"
                   frameborder="0"
@@ -147,17 +159,24 @@
                 <div class="job1">
                   <div class="job-image">
                     <img
+                      id="image1"
                       src="./Media/Image1.jpg"
                       alt="Job1"
                       onclick="OpenOverlay('overlay')"
                     />
+                    <div class="image-text">
+                      <div class="job-title">
+                        <h2>se filmen her</h2>
+                      </div>
+                      <div class="job-Navigation">
+                        <img
+                          src="./Media/Navigation.png"
+                          alt="arrow-navigation"
+                        />
+                      </div>
+                    </div>
                   </div>
-                  <div class="job-title">
-                    <h2>se filmen her</h2>
-                  </div>
-                  <div class="job-Navigation">
-                    <img src="./Media/Navigation.png" alt="arrow-navigation" />
-                  </div>
+
                   <div class="job-description">
                     <h5>lorem ipsum dollor</h5>
                     <p>
@@ -173,18 +192,25 @@
                       alt="Job1"
                       onclick="OpenOverlay('overlay2')"
                     />
-                  </div>
-                  <div class="job-title">
-                    <h2>se filmen her</h2>
-                  </div>
-                  <div class="job-Navigation">
-                    <img src="./Media/Navigation.png" alt="arrow-navigation" />
+                    <div class="image-text">
+                      <div class="job-title">
+                        <h2>se filmen her</h2>
+                      </div>
+                      <div class="job-Navigation">
+                        <img
+                          src="./Media/Navigation.png"
+                          alt="arrow-navigation"
+                        />
+                      </div>
+                    </div>
                   </div>
                   <div class="job-description">
                     <h5>lorem ipsum dollor</h5>
                     <p>
                       Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                      Ratione adipisci tempore corrupti eaque odio.
+                      Ratione adipisci tempore corrupti eaque odio. Lorem ipsum
+                      dolor sit amet, consectetur adipisicing elit. Ipsam,
+                      facere.
                     </p>
                   </div>
                 </div>
@@ -195,18 +221,26 @@
                       alt="Job1"
                       onclick="OpenOverlay('overlay3')"
                     />
+                    <div class="image-text">
+                      <div class="job-title">
+                        <h2>se filmen her</h2>
+                      </div>
+                      <div class="job-Navigation">
+                        <img
+                          src="./Media/Navigation.png"
+                          alt="arrow-navigation"
+                        />
+                      </div>
+                    </div>
                   </div>
-                  <div class="job-title">
-                    <h2>se filmen her</h2>
-                  </div>
-                  <div class="job-Navigation">
-                    <img src="./Media/Navigation.png" alt="arrow-navigation" />
-                  </div>
+
                   <div class="job-description">
                     <h5>lorem ipsum dollor</h5>
                     <p>
                       Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                      Ratione adipisci tempore corrupti eaque odio.
+                      Ratione adipisci tempore corrupti eaque Lorem ipsum dolor
+                      sit amet consectetur adipisicing elit. Repellat,Lorem
+                      ipsum dolor sit. Lorem ipsum dolor sit.
                     </p>
                   </div>
                 </div>
@@ -217,18 +251,26 @@
                       alt="Job1"
                       onclick="OpenOverlay('overlay4')"
                     />
-                  </div>
-                  <div class="job-title">
-                    <h2>se filmen her</h2>
-                  </div>
-                  <div class="job-Navigation">
-                    <img src="./Media/Navigation.png" alt="arrow-navigation" />
+                    <div class="image-text">
+                      <div class="job-title">
+                        <h2>se filmen her</h2>
+                      </div>
+                      <div class="job-Navigation">
+                        <img
+                          src="./Media/Navigation.png"
+                          alt="arrow-navigation"
+                        />
+                      </div>
+                    </div>
                   </div>
                   <div class="job-description">
                     <h5>lorem ipsum dollor</h5>
                     <p>
                       Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                      Ratione adipisci tempore corrupti eaque odio.
+                      Ratione adipisci tempore corrupti eaque odio. Lorem ipsum
+                      dolor sit amet consectetur, adipisicing elit. Iste modi
+                      nostrum provident, numquam ducimus harum quisquam eveniet,
+                      magni ex eos, ut vel ea recusandae.
                     </p>
                   </div>
                 </div>
@@ -326,6 +368,29 @@
     </div>
 
     <!-- External JavaScript -->
+    <script src="JavaScript/Jquery.min.js"></script>
     <script src="JavaScript/index.js"></script>
+    <script type="text/javascript">
+      jQuery(document).ready(function () {
+        jQuery(
+          ".wrapper .main-content .Overlay .Job1-overlay .close-button button"
+        ).on("click", function () {
+          var iframeId = $(this).val();
+          var $frame = jQuery(
+            ".wrapper .main-content .Overlay .Job1-overlay iframe#" + iframeId
+          );
+
+          // saves the current iframe source
+          var vidsrc = $frame.attr("src");
+
+          // sets the source to nothing, stopping the video
+          $frame.attr("src", "");
+
+          // sets it back to the correct link so that it reloads immediately on the next window open
+          $frame.attr("src", vidsrc);
+          jQuery(".wrapper .main-content .Overlay .Job1-overlay").hide();
+        });
+      });
+    </script>
   </body>
 </html>
