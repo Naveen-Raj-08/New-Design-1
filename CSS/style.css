@@ -74,6 +74,10 @@
   position: absolute;
   right: 70px;
   bottom: 14%;
+  cursor: pointer;
+}
+.wrapper .Banner .Banner-navigation:hover img {
+  width: 53px;
 }
 .wrapper .Banner .Banner-navigation img {
   max-width: 100%;
