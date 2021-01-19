@@ -171,30 +171,71 @@
 }
 .wrapper .main-content .Overlay .Job1-overlay {
   padding: 20px;
-  background-color: #d3d5c5;
-  position: absolute;
+  position: fixed;
   width: 100%;
-  z-index: 999;
+  z-index: 10000;
   display: none;
+  top: 0;
+  left: 0;
+  background-color: #000;
+  min-height: 100vh;
+  align-items: center;
 }
 .wrapper .main-content .Overlay .Job1-overlay iframe {
   width: 100%;
+  min-height: 96vh;
+}
+.wrapper .main-content .Overlay .Job1-overlay .close-button {
+  text-align: right;
+}
+.wrapper .main-content .Overlay .Job1-overlay .close-button button {
+  position: absolute;
+  right: 5%;
+  top: 5px;
+  border: 0;
+  background-color: #f0f0f0;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  border: 1px solid #000;
 }
 .wrapper .main-content .our-jobs {
   display: grid;
   grid-template-columns: repeat(4, 25%);
   grid-gap: 0;
-  align-items: center;
   margin-top: 60px;
-  position: relative;
 }
 
 .wrapper .main-content .our-jobs .job1 {
   margin: 0 10px;
-  position: relative;
 }
 .wrapper .main-content .our-jobs .job1 .job-image {
   position: relative;
+}
+.wrapper .main-content .our-jobs .job1 .job-image .image-text {
+  position: absolute;
+  bottom: 20px;
+  left: 50px;
+  display: grid;
+  grid-template-columns: 80% 20%;
+  width: 80%;
+  z-index: 2;
+}
+.wrapper .main-content .our-jobs .job1 .image-text .job-title h2 {
+  font-size: 19px;
+  color: #fff;
+  font-family: Univia Pro-Bold;
+  text-transform: uppercase;
+  margin: 0;
+  position: absolute;
+  bottom: 5%;
+  right: 35%;
+  z-index: 999;
+}
+.wrapper .main-content .our-jobs .job1 .image-text .job-Navigation {
+  position: absolute;
+  right: 5px;
+  bottom: -2px;
 }
 .wrapper .main-content .our-jobs .job1:hover .job-image img {
   opacity: 0.9;
@@ -206,23 +247,6 @@
 }
 .wrapper .main-content .our-jobs .job1 .job-image .Overlay {
   width: 100%;
-}
-
-.wrapper .main-content .our-jobs .job1 .job-title {
-  position: absolute;
-  bottom: 230px;
-  right: 100px;
-}
-.wrapper .main-content .our-jobs .job1 .job-title h2 {
-  font-size: 19px;
-  color: #fff;
-  font-family: Univia Pro-Bold;
-  text-transform: uppercase;
-}
-.wrapper .main-content .our-jobs .job1 .job-Navigation {
-  position: absolute;
-  bottom: 235px;
-  right: 20px;
 }
 .wrapper .main-content .our-jobs .job1 .job-Navigation img {
   max-width: 100%;
@@ -246,7 +270,6 @@
 
 .wrapper .main-content .our-jobs .job2 {
   margin: 0 10px;
-  position: relative;
 }
 .wrapper .main-content .our-jobs .job2:hover .job-image img {
   opacity: 0.9;
@@ -256,21 +279,33 @@
   width: 100%;
   cursor: pointer;
 }
-.wrapper .main-content .our-jobs .job2 .job-title {
-  position: absolute;
-  bottom: 230px;
-  right: 100px;
+.wrapper .main-content .our-jobs .job2 .job-image {
+  position: relative;
 }
-.wrapper .main-content .our-jobs .job2 .job-title h2 {
+.wrapper .main-content .our-jobs .job2 .job-image .image-text {
+  position: absolute;
+  bottom: 20px;
+  left: 50px;
+  display: grid;
+  grid-template-columns: 80% 20%;
+  width: 80%;
+  z-index: 2;
+}
+.wrapper .main-content .our-jobs .job2 .image-text .job-title h2 {
   font-size: 19px;
   color: #fff;
   font-family: Univia Pro-Bold;
   text-transform: uppercase;
-}
-.wrapper .main-content .our-jobs .job2 .job-Navigation {
+  margin: 0;
   position: absolute;
-  bottom: 235px;
-  right: 20px;
+  bottom: 5%;
+  right: 35%;
+  z-index: 999;
+}
+.wrapper .main-content .our-jobs .job2 .image-text .job-Navigation {
+  position: absolute;
+  right: 5px;
+  bottom: -2px;
 }
 .wrapper .main-content .our-jobs .job2 .job-Navigation img {
   max-width: 100%;
@@ -293,32 +328,42 @@
 }
 .wrapper .main-content .our-jobs .job3 {
   margin: 0 10px;
-  position: relative;
 }
 .wrapper .main-content .our-jobs .job3:hover .job-image img {
   opacity: 0.9;
 }
-
 .wrapper .main-content .our-jobs .job3 .job-image img {
   max-width: 100%;
   width: 100%;
   cursor: pointer;
 }
-.wrapper .main-content .our-jobs .job3 .job-title {
-  position: absolute;
-  bottom: 230px;
-  right: 100px;
+.wrapper .main-content .our-jobs .job3 .job-image {
+  position: relative;
 }
-.wrapper .main-content .our-jobs .job3 .job-title h2 {
+.wrapper .main-content .our-jobs .job3 .job-image .image-text {
+  position: absolute;
+  bottom: 20px;
+  left: 50px;
+  display: grid;
+  grid-template-columns: 80% 20%;
+  width: 80%;
+  z-index: 2;
+}
+.wrapper .main-content .our-jobs .job3 .image-text .job-title h2 {
   font-size: 19px;
   color: #fff;
   font-family: Univia Pro-Bold;
   text-transform: uppercase;
-}
-.wrapper .main-content .our-jobs .job3 .job-Navigation {
+  margin: 0;
   position: absolute;
-  bottom: 235px;
-  right: 20px;
+  bottom: 5%;
+  right: 35%;
+  z-index: 999;
+}
+.wrapper .main-content .our-jobs .job3 .image-text .job-Navigation {
+  position: absolute;
+  right: 5px;
+  bottom: -2px;
 }
 .wrapper .main-content .our-jobs .job3 .job-Navigation img {
   max-width: 100%;
@@ -341,7 +386,6 @@
 }
 .wrapper .main-content .our-jobs .job4 {
   margin: 0 10px;
-  position: relative;
 }
 .wrapper .main-content .our-jobs .job4:hover .job-image img {
   opacity: 0.9;
@@ -351,22 +395,35 @@
   width: 100%;
   cursor: pointer;
 }
-.wrapper .main-content .our-jobs .job4 .job-title {
-  position: absolute;
-  bottom: 230px;
-  right: 100px;
+.wrapper .main-content .our-jobs .job4 .job-image {
+  position: relative;
 }
-.wrapper .main-content .our-jobs .job4 .job-title h2 {
+.wrapper .main-content .our-jobs .job4 .job-image .image-text {
+  position: absolute;
+  bottom: 20px;
+  left: 50px;
+  display: grid;
+  grid-template-columns: 80% 20%;
+  width: 80%;
+  z-index: 2;
+}
+.wrapper .main-content .our-jobs .job4 .image-text .job-title h2 {
   font-size: 19px;
   color: #fff;
   font-family: Univia Pro-Bold;
   text-transform: uppercase;
-}
-.wrapper .main-content .our-jobs .job4 .job-Navigation {
+  margin: 0;
   position: absolute;
-  bottom: 235px;
-  right: 20px;
+  bottom: 5%;
+  right: 35%;
+  z-index: 999;
 }
+.wrapper .main-content .our-jobs .job4 .image-text .job-Navigation {
+  position: absolute;
+  right: 5px;
+  bottom: -2px;
+}
+
 .wrapper .main-content .our-jobs .job4 .job-Navigation img {
   max-width: 100%;
   width: 30px;
@@ -533,7 +590,17 @@
   max-width: 100%;
   width: 100%;
 }
-
+.wrapper .main-content .our-jobs .job-image {
+  position: relative;
+  display: block;
+  overflow: hidden;
+}
+.wrapper .main-content .our-jobs .job-image:hover img {
+  -webkit-transition: all 0.3s linear;
+  transition: all 0.3s linear;
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
 @media screen and (max-width: 1679px) {
   .wrapper .Banner .box {
     min-height: 750px;
@@ -562,16 +629,16 @@
   .wrapper .main-content .content-wrapper .content .content-heading h2 {
     font-size: 41px;
   }
-  .wrapper .main-content .our-jobs .job1 .job-Navigation img {
+  .wrapper .main-content .our-jobs .job1 .image-text .job-Navigation img {
     width: 28px;
   }
-  .wrapper .main-content .our-jobs .job2 .job-Navigation img {
+  .wrapper .main-content .our-jobs .job2 .image-text .job-Navigation img {
     width: 28px;
   }
-  .wrapper .main-content .our-jobs .job3 .job-Navigation img {
+  .wrapper .main-content .our-jobs .job3 .image-text .job-Navigation img {
     width: 28px;
   }
-  .wrapper .main-content .our-jobs .job4 .job-Navigation img {
+  .wrapper .main-content .our-jobs .job4 .image-text .job-Navigation img {
     width: 28px;
   }
   .wrapper .Bottom-section .Bottom-text {
@@ -606,6 +673,9 @@
   }
   .wrapper .Bottom-content .Bottom-logo {
     bottom: 100px;
+  }
+  .wrapper .main-content .Overlay .Job1-overlay .close-button button {
+    right: 5%;
   }
 }
 
@@ -642,6 +712,34 @@
   .wrapper .main-content .content-wrapper .content .content-heading h2 {
     font-size: 35px;
   }
+  .wrapper .main-content .our-jobs .job1 .job-image .image-text {
+    width: 100%;
+    left: 0;
+  }
+  .wrapper .main-content .our-jobs .job1 .image-text .job-Navigation {
+    right: 20px;
+  }
+  .wrapper .main-content .our-jobs .job2 .job-image .image-text {
+    width: 100%;
+    left: 0;
+  }
+  .wrapper .main-content .our-jobs .job2 .image-text .job-Navigation {
+    right: 20px;
+  }
+  .wrapper .main-content .our-jobs .job3 .job-image .image-text {
+    width: 100%;
+    left: 0;
+  }
+  .wrapper .main-content .our-jobs .job3 .image-text .job-Navigation {
+    right: 20px;
+  }
+  .wrapper .main-content .our-jobs .job4 .job-image .image-text {
+    width: 100%;
+    left: 0;
+  }
+  .wrapper .main-content .our-jobs .job4 .image-text .job-Navigation {
+    right: 20px;
+  }
   .wrapper .Bottom-section .Bottom-text {
     top: 75px;
     right: 120px;
@@ -676,6 +774,15 @@
   }
   .wrapper .Bottom-content .Bottom-logo {
     bottom: 100px;
+  }
+  .wrapper .main-content .Overlay .Job1-overlay {
+    min-height: 100%;
+    max-height: 100vh;
+  }
+  .wrapper .main-content .Overlay .Job1-overlay iframe {
+    width: 100%;
+    min-height: 100%;
+    max-height: 94vh;
   }
 }
 @media screen and (max-width: 1199px) {
@@ -730,19 +837,11 @@
   .wrapper .main-content .content-wrapper .content-description #p2 {
     font-size: 16px;
   }
-  .wrapper .main-content .our-jobs .job1 .job-title {
-    top: 200px;
-    right: 70px;
-  }
-  .wrapper .main-content .our-jobs .job1 .job-title h2 {
+  .wrapper .main-content .our-jobs .job1 .image-text .job-title h2 {
     margin: 0;
     font-size: 15px;
   }
-  .wrapper .main-content .our-jobs .job1 .job-Navigation {
-    top: 193px;
-    right: 10px;
-  }
-  .wrapper .main-content .our-jobs .job1 .job-Navigation img {
+  .wrapper .main-content .our-jobs .job1 .image-text .job-Navigation img {
     width: 28px;
   }
   .wrapper .main-content .our-jobs .job1 .job-description {
@@ -752,19 +851,11 @@
     font-size: 15px;
     line-height: 23px;
   }
-  .wrapper .main-content .our-jobs .job2 .job-title {
-    top: 200px;
-    right: 70px;
-  }
-  .wrapper .main-content .our-jobs .job2 .job-title h2 {
+  .wrapper .main-content .our-jobs .job2 .image-text .job-title h2 {
     margin: 0;
     font-size: 15px;
   }
-  .wrapper .main-content .our-jobs .job2 .job-Navigation {
-    top: 193px;
-    right: 10px;
-  }
-  .wrapper .main-content .our-jobs .job2 .job-Navigation img {
+  .wrapper .main-content .our-jobs .job2 .image-text .job-Navigation img {
     width: 28px;
   }
   .wrapper .main-content .our-jobs .job2 .job-description {
@@ -774,19 +865,11 @@
     font-size: 15px;
     line-height: 23px;
   }
-  .wrapper .main-content .our-jobs .job3 .job-title {
-    top: 200px;
-    right: 70px;
-  }
-  .wrapper .main-content .our-jobs .job3 .job-title h2 {
+  .wrapper .main-content .our-jobs .job3 .image-text .job-title h2 {
     margin: 0;
     font-size: 15px;
   }
-  .wrapper .main-content .our-jobs .job3 .job-Navigation {
-    top: 193px;
-    right: 10px;
-  }
-  .wrapper .main-content .our-jobs .job3 .job-Navigation img {
+  .wrapper .main-content .our-jobs .job3 .image-text .job-Navigation img {
     width: 28px;
   }
   .wrapper .main-content .our-jobs .job3 .job-description {
@@ -796,19 +879,13 @@
     font-size: 15px;
     line-height: 23px;
   }
-  .wrapper .main-content .our-jobs .job4 .job-title {
-    top: 200px;
-    right: 70px;
-  }
-  .wrapper .main-content .our-jobs .job4 .job-title h2 {
+
+  .wrapper .main-content .our-jobs .job4 .image-text .job-title h2 {
     margin: 0;
     font-size: 15px;
   }
-  .wrapper .main-content .our-jobs .job4 .job-Navigation {
-    top: 193px;
-    right: 10px;
-  }
-  .wrapper .main-content .our-jobs .job4 .job-Navigation img {
+
+  .wrapper .main-content .our-jobs .job4 .image-text .job-Navigation img {
     width: 28px;
   }
   .wrapper .main-content .our-jobs .job4 .job-description {
@@ -873,6 +950,18 @@
   .wrapper .Bottom-content .Bottom-logo img {
     width: 70%;
   }
+  .wrapper .main-content .Overlay .Job1-overlay .close-button button {
+    right: 10px;
+    top: 3%;
+    z-index: 9;
+  }
+  .wrapper .main-content .Overlay .Job1-overlay iframe {
+    width: 100%;
+    min-height: 100%;
+    max-height: 94vh;
+    top: 30px;
+    position: relative;
+  }
 }
 
 @media screen and (max-width: 999px) {
@@ -935,18 +1024,10 @@
   .wrapper .main-content .our-jobs {
     margin-top: 40px;
   }
-  .wrapper .main-content .our-jobs .job1 .job-title {
-    top: 170px;
-    right: 50px;
-  }
-  .wrapper .main-content .our-jobs .job1 .job-title h2 {
+  .wrapper .main-content .our-jobs .job1 .image-text .job-title h2 {
     font-size: 12px;
   }
-  .wrapper .main-content .our-jobs .job1 .job-Navigation {
-    top: 163px;
-    right: 10px;
-  }
-  .wrapper .main-content .our-jobs .job1 .job-Navigation img {
+  .wrapper .main-content .our-jobs .job1 .image-text .job-Navigation img {
     width: 20px;
   }
   .wrapper .main-content .our-jobs .job1 .job-description {
@@ -961,18 +1042,10 @@
     line-height: 19px;
     letter-spacing: 0.2px;
   }
-  .wrapper .main-content .our-jobs .job2 .job-title {
-    top: 170px;
-    right: 50px;
-  }
-  .wrapper .main-content .our-jobs .job2 .job-title h2 {
+  .wrapper .main-content .our-jobs .job2 .image-text .job-title h2 {
     font-size: 12px;
   }
-  .wrapper .main-content .our-jobs .job2 .job-Navigation {
-    top: 163px;
-    right: 10px;
-  }
-  .wrapper .main-content .our-jobs .job2 .job-Navigation img {
+  .wrapper .main-content .our-jobs .job2 .image-text .job-Navigation img {
     width: 20px;
   }
   .wrapper .main-content .our-jobs .job2 .job-description {
@@ -987,18 +1060,12 @@
     line-height: 19px;
     letter-spacing: 0.2px;
   }
-  .wrapper .main-content .our-jobs .job3 .job-title {
-    top: 170px;
-    right: 50px;
-  }
-  .wrapper .main-content .our-jobs .job3 .job-title h2 {
+
+  .wrapper .main-content .our-jobs .job3 .image-text .job-title h2 {
     font-size: 12px;
   }
-  .wrapper .main-content .our-jobs .job3 .job-Navigation {
-    top: 163px;
-    right: 10px;
-  }
-  .wrapper .main-content .our-jobs .job3 .job-Navigation img {
+
+  .wrapper .main-content .our-jobs .job3 .image-text .job-Navigation img {
     width: 20px;
   }
   .wrapper .main-content .our-jobs .job3 .job-description {
@@ -1013,18 +1080,11 @@
     line-height: 19px;
     letter-spacing: 0.2px;
   }
-  .wrapper .main-content .our-jobs .job4 .job-title {
-    top: 170px;
-    right: 50px;
-  }
-  .wrapper .main-content .our-jobs .job4 .job-title h2 {
+  .wrapper .main-content .our-jobs .job4 .image-text .job-title h2 {
     font-size: 12px;
   }
-  .wrapper .main-content .our-jobs .job4 .job-Navigation {
-    top: 163px;
-    right: 10px;
-  }
-  .wrapper .main-content .our-jobs .job4 .job-Navigation img {
+
+  .wrapper .main-content .our-jobs .job4 .image-text .job-Navigation img {
     width: 20px;
   }
   .wrapper .main-content .our-jobs .job4 .job-description {
@@ -1093,6 +1153,9 @@
   .wrapper .Bottom-content .Bottom-logo img {
     width: 50%;
   }
+  .wrapper .main-content .Overlay .Job1-overlay iframe {
+    top: 40px;
+  }
 }
 @media screen and (max-width: 767px) {
   .wrapper .Banner .box {
@@ -1125,18 +1188,12 @@
     grid-template-columns: repeat(2, 50%);
     grid-row-gap: 50px;
   }
-  .wrapper .main-content .our-jobs .job1 .job-title {
-    top: 300px;
-    right: 100px;
-  }
-  .wrapper .main-content .our-jobs .job1 .job-title h2 {
+
+  .wrapper .main-content .our-jobs .job1 .image-text .job-title h2 {
     font-size: 20px;
   }
-  .wrapper .main-content .our-jobs .job1 .job-Navigation {
-    top: 290px;
-    right: 25px;
-  }
-  .wrapper .main-content .our-jobs .job1 .job-Navigation img {
+
+  .wrapper .main-content .our-jobs .job1 .image-text .job-Navigation img {
     width: 30px;
   }
   .wrapper .main-content .our-jobs .job1 .job-description {
@@ -1151,18 +1208,10 @@
     line-height: 23px;
     letter-spacing: 0.2px;
   }
-  .wrapper .main-content .our-jobs .job2 .job-title {
-    top: 300px;
-    right: 100px;
-  }
-  .wrapper .main-content .our-jobs .job2 .job-title h2 {
+  .wrapper .main-content .our-jobs .job2 .image-text .job-title h2 {
     font-size: 20px;
   }
-  .wrapper .main-content .our-jobs .job2 .job-Navigation {
-    top: 290px;
-    right: 25px;
-  }
-  .wrapper .main-content .our-jobs .job2 .job-Navigation img {
+  .wrapper .main-content .our-jobs .job2 .image-text .job-Navigation img {
     width: 30px;
   }
   .wrapper .main-content .our-jobs .job2 .job-description {
@@ -1177,18 +1226,11 @@
     line-height: 23px;
     letter-spacing: 0.2px;
   }
-  .wrapper .main-content .our-jobs .job3 .job-title {
-    top: 300px;
-    right: 100px;
-  }
-  .wrapper .main-content .our-jobs .job3 .job-title h2 {
+  .wrapper .main-content .our-jobs .job3 .image-text .job-title h2 {
     font-size: 20px;
   }
-  .wrapper .main-content .our-jobs .job3 .job-Navigation {
-    top: 290px;
-    right: 25px;
-  }
-  .wrapper .main-content .our-jobs .job3 .job-Navigation img {
+
+  .wrapper .main-content .our-jobs .job3 .image-text .job-Navigation img {
     width: 30px;
   }
   .wrapper .main-content .our-jobs .job3 .job-description {
@@ -1203,18 +1245,10 @@
     line-height: 23px;
     letter-spacing: 0.2px;
   }
-  .wrapper .main-content .our-jobs .job4 .job-title {
-    top: 300px;
-    right: 100px;
-  }
-  .wrapper .main-content .our-jobs .job4 .job-title h2 {
+  .wrapper .main-content .our-jobs .job4 .image-text .job-title h2 {
     font-size: 20px;
   }
-  .wrapper .main-content .our-jobs .job4 .job-Navigation {
-    top: 290px;
-    right: 25px;
-  }
-  .wrapper .main-content .our-jobs .job4 .job-Navigation img {
+  .wrapper .main-content .our-jobs .job4 .image-text .job-Navigation img {
     width: 30px;
   }
   .wrapper .main-content .our-jobs .job4 .job-description {
@@ -1272,6 +1306,12 @@
   .wrapper .Bottom-content .Bottom-logo img {
     width: 75%;
   }
+  .wrapper .main-content .Overlay .Job1-overlay iframe {
+    width: 100%;
+    min-height: 100%;
+    max-height: 90vh;
+    top: 0;
+  }
 }
 
 @media screen and (max-width: 480px) {
@@ -1305,14 +1345,8 @@
     grid-template-columns: 100%;
     grid-row-gap: 20px;
   }
-  .wrapper .main-content .our-jobs .job1 .job-title {
-    top: 390px;
-  }
-  .wrapper .main-content .our-jobs .job1 .job-title h2 {
+  .wrapper .main-content .our-jobs .job1 .image-text .job-title h2 {
     font-size: 18px;
-  }
-  .wrapper .main-content .our-jobs .job1 .job-Navigation {
-    top: 380px;
   }
   .wrapper .main-content .our-jobs .job1 .job-description h5 {
     font-size: 18px;
@@ -1321,14 +1355,8 @@
     font-size: 12px;
     line-height: 22px;
   }
-  .wrapper .main-content .our-jobs .job2 .job-title {
-    top: 390px;
-  }
-  .wrapper .main-content .our-jobs .job2 .job-title h2 {
+  .wrapper .main-content .our-jobs .job2 .image-text .job-title h2 {
     font-size: 18px;
-  }
-  .wrapper .main-content .our-jobs .job2 .job-Navigation {
-    top: 380px;
   }
   .wrapper .main-content .our-jobs .job2 .job-description h5 {
     font-size: 18px;
@@ -1337,14 +1365,8 @@
     font-size: 12px;
     line-height: 22px;
   }
-  .wrapper .main-content .our-jobs .job3 .job-title {
-    top: 390px;
-  }
-  .wrapper .main-content .our-jobs .job3 .job-title h2 {
+  .wrapper .main-content .our-jobs .job3 .image-text .job-title h2 {
     font-size: 18px;
-  }
-  .wrapper .main-content .our-jobs .job3 .job-Navigation {
-    top: 380px;
   }
   .wrapper .main-content .our-jobs .job3 .job-description h5 {
     font-size: 18px;
@@ -1353,14 +1375,8 @@
     font-size: 12px;
     line-height: 22px;
   }
-  .wrapper .main-content .our-jobs .job4 .job-title {
-    top: 390px;
-  }
-  .wrapper .main-content .our-jobs .job4 .job-title h2 {
+  .wrapper .main-content .our-jobs .job4 .image-text .job-title h2 {
     font-size: 18px;
-  }
-  .wrapper .main-content .our-jobs .job4 .job-Navigation {
-    top: 380px;
   }
   .wrapper .main-content .our-jobs .job4 .job-description h5 {
     font-size: 18px;
@@ -1399,5 +1415,8 @@
   }
   .wrapper .Bottom-content .Bottom-logo img {
     width: 100%;
+  }
+  .wrapper .main-content .Overlay .Job1-overlay iframe {
+    top: 30px;
   }
 }
