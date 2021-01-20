@@ -727,7 +727,7 @@
     margin-bottom: 60px;
   }
   .wrapper .Bottom-section .Bottom-text .text-title h2 {
-    font-size: 35px;
+    font-size: 34px;
   }
   .wrapper .Bottom-section .Bottom-text .text-title h2 span {
     font-size: 35px;
@@ -1173,7 +1173,7 @@
     margin-bottom: 25px;
   }
   .wrapper .Bottom-section .Bottom-text .text-title h2 {
-    font-size: 25px;
+    font-size: 23px;
   }
   .wrapper .Bottom-section .Bottom-text .text-title h2 span {
     font-size: 25px;
@@ -1202,11 +1202,18 @@
     margin-bottom: 130px;
   }
   .wrapper .Bottom-content .Bottom-logo {
-    bottom: 30px;
-    right: 210px;
+    bottom: auto;
+    right: auto;
+    position: relative;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    padding-bottom: 20px;
+    padding-top: 5px;
   }
   .wrapper .Bottom-content .Bottom-logo img {
-    width: 50%;
+    width: auto;
+    max-width: 100%;
   }
   .wrapper .main-content .Overlay .Job1-overlay iframe {
     top: 40px;
@@ -1386,11 +1393,12 @@
     margin-bottom: 130px;
   }
   .wrapper .Bottom-content .Bottom-logo {
-    bottom: 10px;
-    left: 43%;
+    bottom: auto;
+    left: 0;
   }
   .wrapper .Bottom-content .Bottom-logo img {
-    width: 75%;
+    width: auto;
+    max-width: 100%;
   }
   .wrapper .main-content .Overlay .Job1-overlay iframe {
     width: 100%;
@@ -1530,12 +1538,12 @@
     line-height: 23px;
   }
   .wrapper .Bottom-content .Bottom-logo {
-    left: 120px;
+    left: auto;
     bottom: 20px;
-    width: 120px;
+    width: 100%;
   }
   .wrapper .Bottom-content .Bottom-logo img {
-    width: 100%;
+    max-width: 100%;
   }
   .wrapper .main-content .Overlay .Job1-overlay iframe {
     top: 30px;
