@@ -61,6 +61,7 @@
   position: absolute;
   bottom: 13%;
   right: 8%;
+  cursor: pointer;
 }
 .wrapper .Banner .Banner-title h1 {
   color: #fff;
@@ -74,6 +75,7 @@
   position: absolute;
   right: 70px;
   bottom: 14%;
+  cursor: pointer;
 }
 .wrapper .Banner .Banner-navigation img {
   max-width: 100%;
@@ -231,6 +233,7 @@
   bottom: 5%;
   left: 0;
   z-index: 999;
+  cursor: pointer;
 }
 .wrapper .main-content .our-jobs .job1 .image-text .job-Navigation {
   position: absolute;
@@ -301,6 +304,7 @@
   bottom: 5%;
   left: 0;
   z-index: 999;
+  cursor: pointer;
 }
 .wrapper .main-content .our-jobs .job2 .image-text .job-Navigation {
   position: absolute;
@@ -359,6 +363,7 @@
   bottom: 5%;
   left: 0;
   z-index: 999;
+  cursor: pointer;
 }
 .wrapper .main-content .our-jobs .job3 .image-text .job-Navigation {
   position: absolute;
@@ -417,6 +422,7 @@
   bottom: 5%;
   left: 0;
   z-index: 999;
+  cursor: pointer;
 }
 .wrapper .main-content .our-jobs .job4 .image-text .job-Navigation {
   position: absolute;
@@ -557,10 +563,7 @@
   max-width: 850px;
   margin-bottom: 80px;
 }
-.wrapper .Bottom-content .Bottom-text .text-description #text1,
-.wrapper .Bottom-content .Bottom-text .text-description #text2,
-.wrapper .Bottom-content .Bottom-text .text-description #text3,
-.wrapper .Bottom-content .Bottom-text .text-description #text4 {
+.wrapper .Bottom-content .Bottom-text .text-description .text {
   color: #5e7157;
   font-family: Univia Pro;
   font-size: 17px;
